@@ -8,5 +8,9 @@ public class Position {
 		this.x =xx;
 		this.y=yy;
 	}
+	public int getX() { return this.x; }
+	public int getY() { return this.y; }
 	
+	public void setX(int xx) { this.x = xx;}
+	public void setY(int yy) { this.y = yy;}
 }

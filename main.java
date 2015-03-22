@@ -4,6 +4,7 @@ public class main {
 		
 		
 		Grille g =new Grille();
+		
 		for( int i=0;i<g.getLiCases()[0].length;i++){
 			for (int j=0;j<g.getLiCases()[i].length;j++) {
 				
@@ -16,7 +17,7 @@ public class main {
 			System.out.println("");
 		}
 		
-		g.mvntDroite();
+	
 	}
 }
 
